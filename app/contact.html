@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material starter with a side of Parsley</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <nav class="white" role="navigation">
+   <div class="nav-wrapper container">
+     <a id="logo-container" href="#" class="brand-logo right">Brand</a>
+     <ul class="left hide-on-med-and-down">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="masonry.html">Masonry Grid</a></li>
+       <li><a href="cards.html">Cards</a></li>
+       <li><a href="contact.html">Contact</a></li>
+     </ul>
+
+     <ul id="nav-mobile" class="side-nav">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="masonry.html">Masonry Grid</a></li>
+       <li><a href="cards.html">Cards</a></li>
+       <li><a href="contact.html">Contact</a></li>
+     </ul>
+     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+   </div>
+ </nav>
+
+ <div id="index-banner" class="parallax-container">
+   <div class="section no-pad-bot">
+     <div class="container">
+       <br><br>
+       <h1 class="header center blue-grey-text text-lighten-4">Starter Template</h1>
+       <div class="row center">
+         <h5 class="header col s12 light">A modern responsive front-end framework</h5>
+         <p class="blue-grey-text text-lighten-4">Built using Jquery, Materialize, Font-Awesome, and ParsleyJS.</p>
+       </div>
+     </div>
+   </div>
+   <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 1"></div>
+ </div>
+
+    <div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send blue-grey-text"></i></h3>
+        <h4>Contact Form</h4>
+        <p class="left-align light">This is a simple custom form. The styles are used from the materialize framework. The form is validated on the front-end using parlseyjs. Enjoy!</p>
+      </div>
+    </div>
+<div class='row'>
+    <form method='post' id='jbForm' role='form'>
+        <div class='input-field col s9 offset-s1'>
+          <i class='material-icons prefix blue-grey-text'>account_circle</i>
+          <input id='cfName' name='name' data-parsley-error-message='Name required' minlength='2' type='text' class="required" value="" />
+          <label for='cfName' >Full Name</label>
+        </div>
+        <div class='input-field col s9 offset-s1'>
+          <i class='material-icons prefix blue-grey-text'>phone</i>
+          <input id='cfPhone' name='phone' type='text' data-parsley-error-message='Valid phone required' data-parsley-pattern='/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/' class="required" value="" />
+          <label for='cfPhone' >Phone</label>
+        </div>
+        <div class='input-field col s9 offset-s1'>
+          <i class='material-icons prefix blue-grey-text'>work</i>
+          <input id='cfCompany' type='text' name='company' data-parsley-error-message='Valid company required' class="required" value="" />
+          <label for='cfCompany' >Company</label>
+        </div>
+        <div class='input-field col s9 offset-s1'>
+          <i class='material-icons prefix blue-grey-text'>mail</i>
+          <input id='cfEmail' type='text' data-parsley-type="email" name='email' data-parsley-error-message='Valid email required' class="required" value="" />
+          <label for='cfEmail' >Email</label>
+        </div>
+        <div class='input-field col s9 offset-s1'>
+          <i class='material-icons prefix blue-grey-text'>mode_edit</i>
+          <textarea id='cfMessage' name='message' class="materialize-textarea required" data-parsley-error-message='Message required' minlength='5' length='320'></textarea>
+          <label for='cfMessage' >Message</label>
+        </div>
+        <div class='input-field col s9 offset-s1'>
+        <button class='btn waves-effect waves-light blue-grey right' type='submit' id='submitButton' name='action'>Submit
+        </button>
+        </div>
+    </form>
+</div>
+
+  </div>
+</div>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 3"></div>
+</div>
+ <footer class="page-footer light-blue darken-4">
+   <div class="container">
+     <div class="row">
+       <div class="col l6 s12">
+         <h5 class="white-text">Bio and Background</h5>
+         <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+       </div>
+       <div class="col l3 s12">
+         <h5 class="white-text">Articles/News</h5>
+         <ul>
+           <li><a class="white-text" href="#!">Link 1</a></li>
+           <li><a class="white-text" href="#!">Link 2</a></li>
+           <li><a class="white-text" href="#!">Link 3</a></li>
+           <li><a class="white-text" href="#!">Link 4</a></li>
+         </ul>
+       </div>
+       <div class="col l3 s12">
+         <h5 class="white-text">Connect</h5>
+         <ul>
+           <li><a class="white-text" href="#!">Link 1</a></li>
+           <li><a class="white-text" href="#!">Link 2</a></li>
+           <li><a class="white-text" href="#!">Link 3</a></li>
+           <li><a class="white-text" href="#!">Link 4</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+   <div class="footer-copyright">
+     <div class="container">
+     Created by JB and <a class="grey-text text-lighten-3" href="">brnzpub.com</a>
+     </div>
+   </div>
+ </footer>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+     -->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/Materialize/dist/js/materialize.js"></script>
+    <script src="/bower_components/parsleyjs/dist/parsley.js"></script>
+    <script src="/bower_components/parsleyjs/dist/parsley.remote.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
