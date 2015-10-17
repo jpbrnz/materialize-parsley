@@ -19,6 +19,11 @@ You must have Node.js and bower installed.
 
 #### Installation
 
+Clone repo (or download zip file)
+```
+git@github.com:jpbrnz/materialize-parsley.git
+```
+
 Type the following to install package dependencies
 
 ```    
