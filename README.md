@@ -39,5 +39,5 @@ gulp build
 #### This is a simple project for quickly building and launching micro sites using Materialize
 
 ### Credits:
-[Yeoman gulp-webapp generator]https://github.com/yeoman/generator-gulp-webapp - A gulp.js generator for modern webapps,
+[Yeoman gulp-webapp generator](https://github.com/yeoman/generator-gulp-webapp) - A gulp.js generator for modern webapps,
 [Gulp](http://gulpjs.com/), [Materialize](http://materializecss.com/), [ParsleyJS](http://parsleyjs.org/)
