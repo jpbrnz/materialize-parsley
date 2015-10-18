@@ -4,6 +4,15 @@
 
 This package scaffolds out a basic webapp using [Gulp](http://gulpjs.com/), [Materialize](http://materializecss.com/), [ParsleyJS](http://parsleyjs.org/).
 
+#### Features
+![Logo](docs/assets/gulp.png)
+![Logo](docs/assets/sass.png)
+![Logo](docs/assets/bower.png)
+![Logo](docs/assets/karma.png)
+![Logo](docs/assets/browsersync.png)
+![Logo](docs/assets/jasmine.png)
+![Logo](docs/assets/babel.png)
+
 Please see [gulpfile](gulpfile.babel.js) for information on tasks, and settings.
 
 Some features include:
